@@ -3,7 +3,7 @@ import WhatsAppIcon from '@/components/WhatsAppIcon';
 import BookingForm from '@/components/BookingForm';
 import { PHONE, EMAIL, WA_DISPLAY, waLink } from '@/lib/data';
 import { Reveal, Stagger, Item } from '@/components/Motion';
-export const metadata = { title: 'Contact', description: 'Call or WhatsApp Urban Gas Stove Repairing for doorstep gas appliance repair in Pune.' };
+export const metadata = { title: 'Contact', description: 'Call or WhatsApp Home Gas Repair for doorstep gas appliance repair in Pune.' };
 export default function Contact() {
   return (<>
     <section className="dots bg-ink py-20 text-white"><Reveal className="wrap"><h1 className="h2">Contact us</h1><p className="mx-auto mt-4 max-w-xl text-center text-white/70">Need urgent service? Call now. Home visit Rs.99.</p></Reveal></section>

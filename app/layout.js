@@ -9,11 +9,11 @@ const d = Bricolage_Grotesque({ subsets: ['latin'], variable: '--f-display' });
 const b = Figtree({ subsets: ['latin'], variable: '--f-body' });
 export const metadata = {
   metadataBase: new URL(SITE),
-  title: { default: 'Gas Stove, Hob, Cooktop & Cooking Range Repair in Pune | Urban Gas Stove Repairing', template: '%s | Urban Gas Stove Repairing' },
+  title: { default: 'Gas Stove, Hob, Cooktop & Cooking Range Repair in Pune | Home Gas Repair', template: '%s | Home Gas Repair' },
   description: 'Fast, reliable and affordable gas stove, hob, cooktop and cooking range repair across Pune and PCMC. Doorstep service in 30 minutes, home visit Rs.99.',
-  openGraph: { type: 'website', siteName: 'Urban Gas Stove Repairing', locale: 'en_IN' }
+  openGraph: { type: 'website', siteName: 'Home Gas Repair', locale: 'en_IN' }
 };
-const ld = { '@context': 'https://schema.org', '@type': 'HomeAndConstructionBusiness', name: 'Urban Gas Stove Repairing', url: SITE, telephone: '+91' + PHONE, email: EMAIL, areaServed: ['Pune', 'Pimpri-Chinchwad'], address: { '@type': 'PostalAddress', addressLocality: 'Pune', addressRegion: 'Maharashtra', addressCountry: 'IN' }, description: 'Gas stove, hob, cooktop and cooking range repair and service in Pune.' };
+const ld = { '@context': 'https://schema.org', '@type': 'HomeAndConstructionBusiness', name: 'Home Gas Repair', url: SITE, telephone: '+91' + PHONE, email: EMAIL, areaServed: ['Pune', 'Pimpri-Chinchwad'], address: { '@type': 'PostalAddress', addressLocality: 'Pune', addressRegion: 'Maharashtra', addressCountry: 'IN' }, description: 'Gas stove, hob, cooktop and cooking range repair and service in Pune.' };
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${d.variable} ${b.variable}`}><body>

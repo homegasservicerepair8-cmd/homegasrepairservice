@@ -21,7 +21,7 @@ const facts = [
   ['Pune & PCMC', 'From Kothrud to Hinjewadi'],
 ];
 
-export const metadata = { title: 'About Us', description: 'Urban Gas Stove Repairing is Pune’s doorstep team for gas stove, hob, cooktop and cooking range repair.' };
+export const metadata = { title: 'About Us', description: 'Home Gas Repair is Pune’s doorstep team for gas stove, hob, cooktop and cooking range repair.' };
 
 export default function About() {
   return (<>

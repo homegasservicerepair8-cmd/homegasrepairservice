@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className="wrap py-5 text-center text-xs text-white/50">© 2026 Urban Gas Stove Repairing. All rights reserved.</p>
+        <p className="wrap py-5 text-center text-xs text-white/50">© 2026 Home Gas Repair. All rights reserved.</p>
       </div>
     </footer>
   );

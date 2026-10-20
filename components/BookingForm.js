@@ -151,7 +151,7 @@ export default function BookingForm({ compact = false, item = 'Stove', need = 'R
   const set = (k) => (value) => setD((prev) => ({ ...prev, [k]: value }));
   const send = (e) => {
     e.preventDefault();
-    const t = `Hello Urban Gas Stove Repairing, I need ${d.need} for my gas ${d.item}.\nName: ${d.name}\nPhone: ${d.phone}\nLocality: ${d.area}`;
+    const t = `Hello Home Gas Repair, I need ${d.need} for my gas ${d.item}.\nName: ${d.name}\nPhone: ${d.phone}\nLocality: ${d.area}`;
     window.open(waLink(t), '_blank');
   };
   return (
