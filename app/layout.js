@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from 'next/script';
 import { Bricolage_Grotesque, Figtree } from 'next/font/google';
 import { Phone } from 'lucide-react';
 import WhatsAppIcon from '@/components/WhatsAppIcon';
@@ -17,6 +18,13 @@ const ld = { '@context': 'https://schema.org', '@type': 'HomeAndConstructionBusi
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${d.variable} ${b.variable}`}><body>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-18524510547" strategy="afterInteractive" />
+      <Script id="gtag-aw" strategy="afterInteractive">{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18524510547');
+      `}</Script>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:bg-white focus:p-3">Skip to content</a>
       <div className="bg-ember px-4 py-2 text-center text-sm font-semibold leading-snug text-white">Doorstep service Rs.99 · <a className="underline" href={waLink()}>WhatsApp {WA_DISPLAY}</a> · <a className="underline" href={`tel:${PHONE}`}>Call {PHONE}</a></div>
