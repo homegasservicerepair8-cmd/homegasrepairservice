@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       `}</Script>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:bg-white focus:p-3">Skip to content</a>
-      <div className="bg-ember px-4 py-2 text-center text-sm font-semibold leading-snug text-white">Doorstep service Rs.99 · <a className="underline" href={waLink()}>WhatsApp {WA_DISPLAY}</a> · <a className="underline" href={`tel:${PHONE}`}>Call {PHONE}</a></div>
+      <div className="bg-ember px-4 py-2 text-center text-sm font-semibold leading-snug text-white">Doorstep service Rs.99 · <a className="underline" href={waLink()}>WhatsApp {WA_DISPLAY}</a> · <a className="underline" href={`tel:${PHONE}`}>Call</a></div>
       <Header /><main id="main">{children}</main><Footer />
       <div className="fab-dock fixed bottom-4 right-4 z-50 flex flex-col gap-3 sm:bottom-5 sm:right-5">
         <a aria-label={`WhatsApp ${WA_DISPLAY}`} href={waLink()} target="_blank" rel="noopener noreferrer" className="fab flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_6px_0_#128C4a] sm:h-14 sm:w-14"><WhatsAppIcon size={26} /></a>

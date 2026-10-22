@@ -89,7 +89,7 @@ export default function HeroRotator() {
           <span key={`${i}-${paused}`} className="slide-bar block h-full origin-left bg-ember" style={{ animationPlayState: paused || reduce ? 'paused' : 'running' }} />
         </div>
         <div className="stack-btns mt-5 gap-3 sm:flex sm:flex-wrap">
-          <a href={`tel:${PHONE}`} className="btn-ember"><Phone size={18} />Call {PHONE}</a>
+          <a href={`tel:${PHONE}`} className="btn-ember"><Phone size={18} />Call</a>
           <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa"><WhatsAppIcon />WhatsApp {WA_DISPLAY}</a>
           <a href="#contact" className="btn-ghost">Request a call back</a>
         </div>

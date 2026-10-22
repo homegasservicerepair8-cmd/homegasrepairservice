@@ -32,7 +32,7 @@ export default function About() {
           <h1 className="mt-3 font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">The doorstep team for a working kitchen.</h1>
           <p className="mt-4 max-w-xl text-base text-white/75 sm:text-lg">We repair gas stoves, hobs, cooktops and cooking ranges at your home across Pune and PCMC. Genuine parts, a clear quote, and most jobs done on the first visit.</p>
           <div className="stack-btns mt-6 gap-3 sm:flex sm:flex-wrap">
-            <a href={`tel:${PHONE}`} className="btn-ember"><Phone size={18} />Call {PHONE}</a>
+            <a href={`tel:${PHONE}`} className="btn-ember"><Phone size={18} />Call</a>
             <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn-wa"><WhatsAppIcon />WhatsApp {WA_DISPLAY}</a>
           </div>
         </div>
